@@ -1,0 +1,92 @@
+
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{82d05ccd-5218-433e-ad79-7f00ac1134c1}", //профиль открывающийся по умолчанию
+
+    "profiles":
+    {
+        "defaults":
+        {
+            // Put settings here that you want to apply to all profiles
+        },
+        "list":
+        [
+            {
+                // Моя конфигурация Powershell
+                "guid": "{82d05ccd-5218-433e-ad79-7f00ac1134c1}", //уникальный идентификатор
+                "name": "xPowerShellx", //имя
+                "commandline": "powershell.exe", //выбор консоли
+				        "colorScheme" : "Szpk", //Szpk, Campbell, One Half Dark, One Half Light, Solarized Dark, и Solarized Light
+				        "cursorColor" : "#FFFFFF", //цвет консольного курсора
+				        "cursorShape" : "bar", //тип мигающего курсора (vintage, bar, underscore, filledBox, emptyBox)
+			        	"fontFace" : "Fira Code", //шрифт - Consolas, Fira Code
+			        	"fontSize" : 10, //размер шрифта
+			        	"historySize" : 9001, //количество хранимых строк над текущей
+			        	"icon" : "https://upload.wikimedia.org/wikipedia/commons/e/ea/Nuvola_blue_X.PNG", //логотип конфигурации
+			        	"padding" : "10, 10, 10, 10", //отступ внутри окна (л, в, п, н)
+			        	"snapOnInput" : true, //автоматическая прокрутка до строки ввода
+		        		"startingDirectory" : "%USERPROFILE%", //стартовая директория
+		        		"backgroundImage" : "http://www.hqwallpapers.ru/wallpapers/space/krasivyy-kosmos.jpg",
+		        		"backgroundImageAlignment" : "left",
+		        		"backgroundImageOpacity" : 0.3,
+		        		"backgroundImageStretchMode" : "uniformToFill", // none, fill, uniform, uniformToFill		
+		        		"useAcrylic" : false, //акриловый эффект фона при наведении курсора
+		        		"acrylicOpacity" : 0.9, //непрозрачность акрилового эффекта
+		        		"hidden": false //отображение профиля в меню выбора
+            },
+			{
+                // Make changes here to the powershell.exe profile
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "hidden": false
+            },
+            {
+                // Make changes here to the cmd.exe profile
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            }
+        ]
+    },
+
+    // Add custom color schemes to this array
+    "schemes": [
+	{
+      "background":  "#1c265e",
+      "black":  "#21222C",
+      "blue":  "#F1FA8C",
+      "brightBlack":  "#6272A4",
+      "brightBlue":  "#D6ACFF",
+      "brightCyan":  "#A4FFFF",
+      "brightGreen":  "#69FF94",
+      "brightPurple":  "#FF92DF",
+      "brightRed":  "#FF3333",
+      "brightWhite":  "#FFFFFF",
+      "brightYellow":  "#EAFF00",
+      "cyan":  "#8BE9FD",
+      "foreground":  "#F8F8F2",
+      "green":  "#50FA7B",
+      "name":  "Szpk",
+      "purple":  "#BD93F9",
+      "red":  "#FF5555",
+      "white":  "#F8F8F2",
+      "yellow":  "#F1FA8C"
+    }
+	],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
