@@ -1,3 +1,4 @@
+
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 
@@ -19,23 +20,23 @@
                 "guid": "{82d05ccd-5218-433e-ad79-7f00ac1134c1}", //уникальный идентификатор
                 "name": "xPowerShellx", //имя
                 "commandline": "powershell.exe", //выбор консоли
-                "colorScheme" : "Szpk", //Szpk, Campbell, One Half Dark, One Half Light, Solarized Dark, и Solarized Light
-                "cursorColor" : "#FFFFFF", //цвет консольного курсора
-                "cursorShape" : "bar", //тип мигающего курсора (vintage, bar, underscore, filledBox, emptyBox)
-                "fontFace" : "Fira Code", //шрифт - Consolas, Fira Code
-                "fontSize" : 10, //размер шрифта
-                "historySize" : 9001, //количество хранимых строк над текущей
-                "icon" : "https://upload.wikimedia.org/wikipedia/commons/e/ea/Nuvola_blue_X.PNG", //логотип конфигурации
-                "padding" : "10, 10, 10, 10", //отступ внутри окна (л, в, п, н)
-                "snapOnInput" : true, //автоматическая прокрутка до строки ввода
-                "startingDirectory" : "%USERPROFILE%", //стартовая директория
-                "backgroundImage" : "http://www.hqwallpapers.ru/wallpapers/space/krasivyy-kosmos.jpg",
-                "backgroundImageAlignment" : "left",
-                "backgroundImageOpacity" : 0.3,
-                "backgroundImageStretchMode" : "uniformToFill", // none, fill, uniform, uniformToFill		
-                "useAcrylic" : false, //акриловый эффект фона при наведении курсора
-                "acrylicOpacity" : 0.9, //непрозрачность акрилового эффекта
-                "hidden": false //отображение профиля в меню выбора
+				"colorScheme" : "Szpk", //Szpk, Campbell, One Half Dark, One Half Light, Solarized Dark, и Solarized Light
+				"cursorColor" : "#FFFFFF", //цвет консольного курсора
+				"cursorShape" : "bar", //тип мигающего курсора (vintage, bar, underscore, filledBox, emptyBox)
+				"fontFace" : "Fira Code", //шрифт - Consolas, Fira Code
+				"fontSize" : 10, //размер шрифта
+				"historySize" : 9001, //количество хранимых строк над текущей
+				"icon" : "https://upload.wikimedia.org/wikipedia/commons/e/ea/Nuvola_blue_X.PNG", //логотип конфигурации
+				"padding" : "10, 10, 10, 10", //отступ внутри окна (л, в, п, н)
+				"snapOnInput" : true, //автоматическая прокрутка до строки ввода
+				"startingDirectory" : "%USERPROFILE%", //стартовая директория
+				"backgroundImage" : "http://www.hqwallpapers.ru/wallpapers/space/krasivyy-kosmos.jpg",
+				"backgroundImageAlignment" : "left",
+				"backgroundImageOpacity" : 0.3,
+				"backgroundImageStretchMode" : "uniformToFill", // none, fill, uniform, uniformToFill		
+				"useAcrylic" : false, //акриловый эффект фона при наведении курсора
+				"acrylicOpacity" : 0.9, //непрозрачность акрилового эффекта
+				"hidden": false //отображение профиля в меню выбора
             },
 			{
                 // Make changes here to the powershell.exe profile
@@ -65,7 +66,7 @@
 	{
       "background":  "#1c265e",
       "black":  "#21222C",
-      "blue":  "#0600bd",
+      "blue":  "#0600ad",
       "brightBlack":  "#6272A4",
       "brightBlue":  "#D6ACFF",
       "brightCyan":  "#A4FFFF",
@@ -75,13 +76,13 @@
       "brightWhite":  "#FFFFFF",
       "brightYellow":  "#EAFF00",
       "cyan":  "#8BE9FD",
-      "foreground":  "#F8F8F2",
+      "foreground":  "#d6d6d6", //"#F8F8F2"
       "green":  "#50FA7B",
       "name":  "Szpk",
       "purple":  "#BD93F9",
       "red":  "#FF5555",
       "white":  "#F8F8F2",
-      "yellow":  "#F1FA8C"
+      "yellow":  "#e3d24f"
     }
 	],
 
